@@ -10,7 +10,7 @@ import tests
 @allure.severity("Высокий")
 def test_fill_and_submit_form():
     with allure.step("Открываем регистрационную форму"):
-        browser.open('/automation-practice-form')
+        browser.open('https://demoqa.com/automation-practice-form')
 
     with allure.step("Заполняем форму и нажимаем Submit"):
         browser.element('#firstName').type('Глеб')
